@@ -10,30 +10,31 @@
 <body>
     <!-- Header Section -->
 
-    <header class=" ">
+    <header>
         
-        <nav class="flex justify-between max-w-[1170px] m-auto mt-16">
-            <div>
-            <img src="images/logo2.png" alt="">
-        </div>
-            <ul class="flex gap-8 pt-2.5">
-                <li><a href="">Home</a></li>
-                <li><a href="">Services <i class="fa-solid fa-angle-right"></i></a></li>
-                <li><a href="">Cases <i class="fa-solid fa-angle-right"></i></a></li>
-                <li><a href="">Blog <i class="fa-solid fa-angle-right"></i></a></li>
-                <li><a href="">Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
+        <nav class="flex flex-col lg:flex-row items-center text-center lg:justify-between max-w-[1170px] m-auto mt-16 gap-6 lg:gap-0 ">
+            <div class="">
+                <img src="images/logo2.png" alt="">
+            </div>
+            <ul class="flex flex-col lg:flex-row gap-8 pt-2.5">
+                <li><a class="text-[#707070]" href="">Home</a></li>
+                <li><a class="text-[#707070]" href="">Services <i class="fa-solid fa-angle-right"></i></a></li>
+                <li><a class="text-[#707070]" href="">Cases <i class="fa-solid fa-angle-right"></i></a></li>
+                <li><a class="text-[#707070]" href="">Blog <i class="fa-solid fa-angle-right"></i></a></li>
+                <li><a class="text-[#707070]" href="">Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
             </ul>
-            <button class="bg-[#b68c5a] hover:bg-[#84633c] cursor-pointer w-[200px] text-[white] text-lg font-semibold rounded-lg">Free Consultation</button>
+            <button class="bg-[#b68c5a] hover:bg-[#84633c] cursor-pointer h-14 lg:w-[200px] lg:h-[60px] text-[white] text-lg font-semibold rounded-lg p-4">Free Consultation</button>
         </nav>
         
         
         <div class="bg-[url(images/banner.png)] bg-cover bg-center h-[550px] max-w-[1170px] m-auto mt-16 flex justify-center items-center">
             <div class="w-[692px] h-[342px] text-center">
-                <h1 class="text-6xl text-[white] font-extrabold w-[668px] pt-6">We Provide Effective Legal Solutions</h1>
+                <h1 class="text-6xl text-[white] font-extrabold lg:w-[668px] lg:pt-6">We Provide Effective Legal Solutions</h1>
                 <p class="text-[#E7E7E7] pt-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                <div class="pt-6">
-                    <input class="bg-[white] w-[500px] h-[64px] rounded-lg pl-5 " type="text" name="" id="" placeholder="Search your services">
-                    <button class="bg-[#B68C5A] hover:bg-[#84633c] cursor-pointer w-[150px] h-[64px] text-[white] text-lg font-semibold rounded-lg ml-5">Search</button>
+                <div class="flex flex-col gap-2 lg:flex-row pt-6">
+                    <input class="bg-[white] lg:w-[500px] h-[64px] rounded-lg pl-5 " type="text" name="" id="" placeholder="Search your services">
+                    <button class="bg-[#B68C5A] hover:bg-[#84633c] cursor-pointer lg:w-[150px] h-[64px] text-[white] text-lg font-semibold rounded-lg lg:ml-4">Search
+                    </button>
                 </div>
             </div>
         </div>
@@ -43,7 +44,7 @@
 
     <main>
         <div class="text-center mt-30">
-            <h3 class="text-[40px] font-extrabold pb-6">
+            <h3 class="text-[40px] font-extrabold text-[#414040] pb-6">
                 The Legal Practice Area
             </h3>
             <p class="text-[#707070]">
@@ -51,26 +52,26 @@
             </p>
         </div>
         <!-- Leagal Area Cards -->
-        <section class="bg-[#fefefe] max-w-[1170px]  mt-20 m-auto grid grid-cols-3">
-            <div class="border-r border-b border-gray-300 text-center flex flex-col items-center px-10 py-12">
+        <section class="bg-[#fefefe] max-w-[1170px]  mt-20 m-auto grid lg:grid-cols-3">
+            <div class="lg:border-r lg:border-b border-gray-300 text-center flex flex-col items-center px-10 py-12">
                 <img src="images/business.png" alt="">
-                <h3 class="text-3xl font-extrabold pt-6 pb-6">Business Law</h3>
+                <h3 class="text-3xl text-[#414040] font-extrabold pt-6 pb-6">Business Law</h3>
                 <p class="text-[#707070] pb-4">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
                 </p>
                 <a href=""><img class="transition-transform duration-300 hover:scale-110 cursor-pointer" src="images/Frame.png" alt=""></a>
             </div>
-            <div class="bg-linear-to-t from-[#f3f3f300] to-[#f3f3f3] border-r border-b border-gray-300 text-center flex flex-col items-center px-10 py-12">
+            <div class="lg:bg-linear-to-t from-[#f3f3f300] to-[#f3f3f3] lg:border-r lg:border-b lg:border-gray-300 text-center flex flex-col items-center px-10 py-12">
                 <img src="images/criminal.png" alt="">
-                <h3 class="text-3xl font-extrabold pt-6 pb-6">Criminal Law</h3>
+                <h3 class="text-3xl text-[#414040] font-extrabold pt-6 pb-6">Criminal Law</h3>
                 <p class="text-[#707070] pb-4">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
                 </p>
                 <a href=""><img class="transition-transform duration-300 hover:scale-110 cursor-pointer" src="images/Frame.png" alt=""></a>
             </div>
-            <div class="border-b border-gray-300 text-center flex flex-col items-center px-10 py-12">
+            <div class="lg:border-b lg:border-gray-300 text-center flex flex-col items-center px-10 py-12">
                 <img src="images/child.png" alt="">
-                <h3 class="text-3xl font-extrabold pt-6 pb-6">Child Support</h3>
+                <h3 class="text-3xl text-[#414040] font-extrabold pt-6 pb-6">Child Support</h3>
                 <p class="text-[#707070] pb-4">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
                 </p>
@@ -78,7 +79,7 @@
             </div>
             <div class="border-r border-gray-300 text-center flex flex-col items-center px-10 py-12">
                 <img src="images/education.png" alt="">
-                <h3 class="text-3xl font-extrabold pt-6 pb-6">Education Law</h3>
+                <h3 class="text-3xl text-[#414040] font-extrabold pt-6 pb-6">Education Law</h3>
                 <p class="text-[#707070] pb-4">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
                 </p>
@@ -86,7 +87,7 @@
             </div>
             <div class="border-r border-gray-300 text-center flex flex-col items-center px-10 py-12">
                 <img src="images/divorce.png" alt="">
-                <h3 class="text-3xl font-extrabold pt-6 pb-6">Divorce Law</h3>
+                <h3 class="text-3xl text-[#414040] font-extrabold pt-6 pb-6">Divorce Law</h3>
                 <p class="text-[#707070] pb-4">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
                 </p>
@@ -94,7 +95,7 @@
             </div>
             <div class=" border-gray-300 text-center flex flex-col items-center px-10 py-12">
                 <img src="images/tax.png" alt="">
-                <h3 class="text-3xl font-extrabold pt-6 pb-6">Tax Law</h3>
+                <h3 class="text-3xl text-[#414040] font-extrabold pt-6 pb-6">Tax Law</h3>
                 <p class="text-[#707070] pb-4">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
                 </p>
@@ -106,9 +107,9 @@
 
         <section>
             <div class="text-center mt-26">
-                <h3 class="text-4xl font-extrabold text-[#414040]">What Our Client Say</h3>
+                <h3 class="text-4xl font-extrabold text-[#414040] pb-6">What Our Client Say</h3>
                 <p class="text-[#707070]">
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+                    There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.
                 </p>
             </div>
             <div class="bg-[url(images/banner.png)] bg-cover bg-center h-[550px] max-w-[1170px] m-auto mt-16 flex justify-center items-center">
@@ -133,7 +134,7 @@
             </p>
          </div>
 
-         <div class="flex justify-center gap-8 max-w-[1170px] mx-auto py-16">
+         <div class="lg:flex lg:justify-center gap-8 max-w-[1170px] mx-auto py-16 pl-4 lg:pl-0">
             <div class="w-[570px] space-y-4 mt-16">
                 <details class="bg-gray-200 rounded-lg overflow-hidden group">
                 <summary class="flex justify-between items-center px-6 py-4 cursor-pointer list-none font-semibold text-lg">
@@ -183,23 +184,23 @@
 
          <!-- Contact Us -->
           <section>
-            <div class="text-center mt-26">
+            <div class="text-center mt-26 ">
                 <h3 class="text-4xl font-extrabold text-[#414040]">Contact With Us</h3>
                 <p class="text-[#707070] pt-5">
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+                    There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.
                 </p>
             </div>
 
-            <div class="flex justify-center gap-6 mt-10">
+            <div class="lg:flex lg:justify-center gap-6 mt-10 pl-3 lg:pl-0">
                 <div class="grid grid-cols-2">
                 <div class="w-[285px] bg-[#F3F3F3] border-r border-b border-gray-300 text-center flex flex-col items-center px-10 py-12">
                     <img class="pt-6 pb-6" src="images/location.png" alt="">
-                    <span class="text-2xl font-extrabold pb-5">Address</span>
+                    <span class="text-2xl text-[#414040] font-extrabold pb-5">Address</span>
                     <p class="text-[#707070]">A108 Adam Street,<br> New York, NY 535022</p>
                 </div>
                 <div class="w-[285px] bg-[#F3F3F3] border-b border-gray-300 text-center flex flex-col items-center px-10 py-12">
                     <img class="pt-6 pb-6" src="images/call.png" alt="">
-                    <span class="text-2xl font-extrabold pb-5">Call Us</span>
+                    <span class="text-2xl text-[#414040] font-extrabold pb-5">Call Us</span>
                     <p class="text-[#707070]">
                         +88 01750 00 00 00
                         <br>+88 01750 00 00 00
@@ -207,7 +208,7 @@
                 </div>
                 <div class="w-[285px] bg-[#F3F3F3] border-r border-gray-300 text-center flex flex-col items-center px-10 py-12">
                     <img class="pt-6 pb-6" src="images/email.png" alt="">
-                    <span class="text-2xl font-extrabold pb-5">Email Us</span>
+                    <span class="text-2xl text-[#414040] font-extrabold pb-5">Email Us</span>
                     <p class="text-[#707070]">
                         info@gmail.com
                         <br>info@gmail.com
@@ -215,7 +216,7 @@
                 </div>
                 <div class="w-[285px] bg-[#F3F3F3] text-center flex flex-col items-center px-10 py-12">
                     <img class="pt-6 pb-6" src="images/time.png" alt="">
-                    <span class="text-2xl font-extrabold pb-5">Working Hours</span>
+                    <span class="text-2xl text-[#414040] font-extrabold pb-5">Working Hours</span>
                     <p class="text-[#707070]">
                         Mon-Fri: 9AM to 5PM
                         <br>Sunday: 9AM to 1 PM
@@ -224,7 +225,7 @@
 
                 </div>
 
-                <div class="">
+                <div class="mt-10 lg:mt-auto pl-2 lg:pl-0">
                 <form class="flex flex-col" action="">
                     <input  class="bg-[#F3F3F3] rounded-lg w-[570px] h-[72px] pl-6 mb-6" type="text" name="" id="" placeholder="Your Name">
                     <input class="bg-[#F3F3F3] rounded-lg w-[570px] h-[72px] pl-6 mb-6" type="email" name="" id="" placeholder="Your Email">
@@ -238,8 +239,8 @@
     </main>
 
     <!-- Footer Section -->
-     
-    <footer class="bg-black mt-28 flex justify-around h-[500px] pt-30">
+
+    <footer class=" bg-black mt-28 lg:flex lg:justify-center lg:gap-16 lg:h-[500px] pt-30 px-10">
         <div class="space-y-4">
             <img class="pb-6" src="images/logo.png" alt="">
             <p class="w-[255px] text-[#CFCFCF] ">
@@ -248,7 +249,7 @@
         </div>
 
         <div class="space-y-4">
-            <h3 class="text-2xl font-extrabold text-white pb-6">Usefull Link</h3>
+            <h3 class="text-2xl font-extrabold text-white pb-6 pt-5 lg:pt-0">Usefull Link</h3>
                 <ul class="text-[#CFCFCF] space-y-4">
                     <li><a href="">Home</a></li>
                     <li><a href="">Services</a></li>
@@ -259,7 +260,7 @@
         </div>
 
         <div class="space-y-4">
-            <h3 class="text-2xl font-extrabold text-white pb-6">Contact Now</h3>
+            <h3 class="text-2xl font-extrabold text-white pb-6 pt-5 lg:pt-0">Contact Now</h3>
             <p class="text-[#CFCFCF]">
                 555 4th 5t NW, Washington <br>DC 20530, United States
             </p>
@@ -275,8 +276,8 @@
             </p>
         </div>
 
-        <div class="w-[324px] space-y-4">
-            <h3 class="text-2xl font-extrabold text-white pb-6">Subscribe</h3>
+        <div class="w-[324px] space-y-4 pb-4">
+            <h3 class="text-2xl font-extrabold text-white pb-6 pt-5 lg:pt-0">Subscribe</h3>
             <p class="text-[#CFCFCF]">
                 Subscribe for our latest & Articles. We Won’t Give You Spam Mails
             </p>
